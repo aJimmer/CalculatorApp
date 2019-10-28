@@ -21,6 +21,11 @@ public class Calculator
     public double divide(double firstNumber, double secondNumber) {
         return firstNumber / secondNumber;
     }
+
+    public double multiply(double firstNumber, double secondNumber) {
+        return firstNumber * secondNumber;
+    }
+    
     private final String getMessage() {
         return message;
     }

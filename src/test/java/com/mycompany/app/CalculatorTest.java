@@ -57,6 +57,14 @@ public class CalculatorTest
         double result = calc.divide(10.0, 2.0);
         assertEquals(5.0, result, 0.0f);
     }
+
+    @Test
+    public void testMultiplyOperation() {
+        Calculator calc = new Calculator();
+        double result = calc.multiply(10.0, 2.0);
+        assertEquals(0.0, result, 0.0f);
+    }
+
     @After
     public void cleanUpStreams() {
         System.setOut(null);
