@@ -41,14 +41,14 @@ public class CalculatorTest
     public void testAddOperation() {
         Calculator calc = new Calculator();
         double result = calc.add(1.0,2.0);
-        assertEquals(3.0, result);
+        assertEquals(3.0, result, 0.0f);
     } 
 
     @Test
     public void testSubtractOperation() {
         Calculator calc = new Calculator();
         double result = calc.subtract(5.0, 3.0);
-        assertEquals(0.0, result);
+        assertEquals(0.0, result, 0.0f);
     }
 
     @After
