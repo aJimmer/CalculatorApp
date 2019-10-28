@@ -10,7 +10,7 @@ public class Calculator
         System.out.println(new Calculator().getMessage());
     }
 
-    public int add(double firstNumber, double secondNumber) {
+    public int add(int firstNumber, int secondNumber) {
         return 0;
     }
     private final String getMessage() {
