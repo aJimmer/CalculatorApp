@@ -10,8 +10,12 @@ public class Calculator
         System.out.println(new Calculator().getMessage());
     }
 
-    public int add(int firstNumber, int secondNumber) {
+    public double add(double firstNumber, double secondNumber) {
         return firstNumber + secondNumber;
+    }
+
+    public double subtract(double firstNumber, double secondNumber ) {
+        return firstNumber - secondNumber;
     }
     private final String getMessage() {
         return message;

@@ -40,9 +40,16 @@ public class CalculatorTest
     @Test
     public void testAddOperation() {
         Calculator calc = new Calculator();
-        int result = calc.add(1,2);
-        assertEquals(3,result);
+        double result = calc.add(1.0,2.0);
+        assertEquals(3.0, result);
     } 
+
+    @Test
+    public void testSubtractOperation() {
+        Calculator calc = new Calculator();
+        double result = calc.subtract(5.0, 3.0);
+        assertEquals(0.0, result)
+    }
 
     @After
     public void cleanUpStreams() {
