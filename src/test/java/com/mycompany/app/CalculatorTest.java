@@ -48,7 +48,7 @@ public class CalculatorTest
     public void testSubtractOperation() {
         Calculator calc = new Calculator();
         double result = calc.subtract(5.0, 3.0);
-        assertEquals(0.0, result, 0.0f);
+        assertEquals(2.0, result, 0.0f);
     }
 
     @After
