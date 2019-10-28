@@ -40,7 +40,7 @@ public class CalculatorTest
     @Test
     public void testAddOperation() {
         Calculator calc = new Calculator();
-        result = calc.add(1,2);
+        boolean result = calc.add(1,2);
         assertTrue(result);
     } 
 
