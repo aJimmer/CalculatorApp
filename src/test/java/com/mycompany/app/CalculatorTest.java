@@ -55,7 +55,7 @@ public class CalculatorTest
     public void testDivideOperation() {
         Calculator calc = new Calculator();
         double result = calc.divide(10.0, 2.0);
-        assertEquals(0.0, result, 0.0f);
+        assertEquals(5.0, result, 0.0f);
     }
     @After
     public void cleanUpStreams() {
