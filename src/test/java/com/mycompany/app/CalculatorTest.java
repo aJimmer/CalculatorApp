@@ -7,6 +7,6 @@ public class CalclulatorTest
 {
     @Test
     public void testCalculatorConstructor() {
-        assertFalse("Fail")
+        assertFalse("Fail");
     }
 }
