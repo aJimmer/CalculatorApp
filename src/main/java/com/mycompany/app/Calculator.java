@@ -6,10 +6,6 @@ public class Calculator
 
     public Calculator() {}
 
-    public static void main(String[] args) {
-        System.out.println(new Calculator().getMessage());
-    }
-
     public double add(double firstNumber, double secondNumber) {
         return firstNumber + secondNumber;
     }
@@ -25,9 +21,12 @@ public class Calculator
     public double multiply(double firstNumber, double secondNumber) {
         return firstNumber * secondNumber;
     }
-    
+
     private final String getMessage() {
         return message;
     }
 
+    public static void main(String[] args) {
+        System.out.println(new Calculator().getMessage());
+    }
 }

@@ -62,7 +62,7 @@ public class CalculatorTest
     public void testMultiplyOperation() {
         Calculator calc = new Calculator();
         double result = calc.multiply(10.0, 2.0);
-        assertEquals(0.0, result, 0.0f);
+        assertEquals(20.0, result, 0.0f);
     }
 
     @After
