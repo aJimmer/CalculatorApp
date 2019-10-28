@@ -7,10 +7,6 @@ public class CalclulatorTest
 {
     @Test
     public void testCalculatorConstructor() {
-        try {
-            new Calculator();
-        } catch (Exception e) {
-            fail("Construction failed.");
-        }
+        assertFalse("Fail")
     }
 }
