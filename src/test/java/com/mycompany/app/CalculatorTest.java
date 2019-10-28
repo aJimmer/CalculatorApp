@@ -68,7 +68,7 @@ public class CalculatorTest
     public void testModuloOperation() {
         Calculator calc = new Calculator();
         double result = calc.modulo(11.0, 2.0);
-        assertEquals(0.0, result, 0.0f);
+        assertEquals(1.0, result, 0.0f);
     }
 
     @After
