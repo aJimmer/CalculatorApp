@@ -40,8 +40,8 @@ public class CalculatorTest
     @Test
     public void testAddOperation() {
         Calculator calc = new Calculator();
-        boolean result = calc.add(1,2);
-        assertTrue(result);
+        int result = calc.add(1,2);
+        assertEquals(3,result);
     } 
 
     @After
