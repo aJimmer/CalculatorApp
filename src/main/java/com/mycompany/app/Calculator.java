@@ -10,8 +10,8 @@ public class Calculator
         System.out.println(new Calculator().getMessage());
     }
 
-    public int add(int firstNumber, int secondNumber) {
-        return 0;
+    public boolean add(int firstNumber, int secondNumber) {
+        return false;
     }
     private final String getMessage() {
         return message;
