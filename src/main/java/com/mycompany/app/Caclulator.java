@@ -5,5 +5,7 @@ package com.mycompany.app;
  */
 public class Caclulator
 {
-
+    public Caclulator(){
+        
+    }
 }
