@@ -22,6 +22,10 @@ public class Calculator
         return firstNumber * secondNumber;
     }
 
+    public double modulo(double firstNumber, double secondNumber) {
+        return firstNumber % secondNumber;
+    }
+    
     private final String getMessage() {
         return message;
     }

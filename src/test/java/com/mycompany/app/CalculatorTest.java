@@ -27,8 +27,7 @@ public class CalculatorTest
     }
 
     @Test
-    public void testCalculatorMain()
-    {
+    public void testCalculatorMain() {
         Calculator.main(null);
         try {
             assertEquals("Welcome to my Calculator App" + System.getProperty("line.separator"), outContent.toString());
@@ -63,6 +62,13 @@ public class CalculatorTest
         Calculator calc = new Calculator();
         double result = calc.multiply(10.0, 2.0);
         assertEquals(20.0, result, 0.0f);
+    }
+
+    @Test
+    public void testModuloOperation() {
+        Calculator calc = new Calculator();
+        double result = calc.modulo(11.0, 2.0);
+        assertEquals(0.0, result, 0.0f);
     }
 
     @After
