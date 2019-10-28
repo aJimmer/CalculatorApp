@@ -7,10 +7,7 @@ import org.junit.Test;
 import org.junit.After;
 import static org.junit.Assert.*;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest
+public class CalculatorTest
 {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
@@ -21,18 +18,18 @@ public class AppTest
     }
 
     @Test
-    public void testAppConstructor() {
+    public void testCalculatorConstructor() {
         try {
-            new App();
+            new Calculator();
         } catch (Exception e) {
             fail("Construction failed.");
         }
     }
 
     @Test
-    public void testAppMain()
+    public void testCalculatorMain()
     {
-        App.main(null);
+        Calculator.main(null);
         try {
             assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
