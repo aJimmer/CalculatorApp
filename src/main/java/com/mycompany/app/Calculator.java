@@ -2,7 +2,7 @@ package com.mycompany.app;
 
 public class Calculator
 {
-    private final String message = "Welcome to my Calculator";
+    private final String message = "Welcome to my Calculator App";
 
     public Calculator() {}
 
