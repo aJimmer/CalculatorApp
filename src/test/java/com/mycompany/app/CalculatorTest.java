@@ -27,16 +27,6 @@ public class CalculatorTest
     }
 
     @Test
-    public void testCalculatorMain() {
-        Calculator.main(null);
-        try {
-            assertEquals("Welcome to my Calculator App" + System.getProperty("line.separator"), outContent.toString());
-        } catch (AssertionError e) {
-            fail("\"message\" is not \"Hello World!\"");
-        }
-    }
-
-    @Test
     public void testAddOperation() {
         Calculator calc = new Calculator();
         double result = calc.makeCalculation(6.0, 2.0, '+');
