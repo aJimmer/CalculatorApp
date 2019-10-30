@@ -39,36 +39,36 @@ public class CalculatorTest
     @Test
     public void testAddOperation() {
         Calculator calc = new Calculator();
-        double result = calc.add(1.0,2.0);
-        assertEquals(3.0, result, 0.0f);
+        double result = calc.makeCalculation(6.0, 2.0, '+');
+        assertEquals(8.0, result, 0.0f);
     } 
 
     @Test
     public void testSubtractOperation() {
         Calculator calc = new Calculator();
-        double result = calc.subtract(5.0, 3.0);
-        assertEquals(2.0, result, 0.0f);
+        double result = calc.makeCalculation(6.0, 2.0, '-');
+        assertEquals(4.0, result, 0.0f);
     }
 
     @Test
     public void testDivideOperation() {
         Calculator calc = new Calculator();
-        double result = calc.divide(10.0, 2.0);
-        assertEquals(5.0, result, 0.0f);
+        double result = calc.makeCalculation(6.0, 2.0, '/');
+        assertEquals(3.0, result, 0.0f);
     }
 
     @Test
     public void testMultiplyOperation() {
         Calculator calc = new Calculator();
-        double result = calc.multiply(10.0, 2.0);
-        assertEquals(20.0, result, 0.0f);
+        double result = calc.makeCalculation(6.0, 2.0, '*');
+        assertEquals(12.0, result, 0.0f);
     }
 
     @Test
     public void testModuloOperation() {
         Calculator calc = new Calculator();
-        double result = calc.modulo(11.0, 2.0);
-        assertEquals(1.0, result, 0.0f);
+        double result = calc.makeCalculation(6.0, 2.0, '%');
+        assertEquals(0.0, result, 0.0f);
     }
 
     @After
